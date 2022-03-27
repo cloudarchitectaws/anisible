@@ -1,6 +1,9 @@
-- name: Install httpd package
+- name: Sample
   hosts: all
   tasks:
     - name: Print Hello World
       ansible.builtin.debug:
         msg: Hello World
+    - name: Install httd Package
+      ansible.builtin.package:
+        name: httpd
