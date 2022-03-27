@@ -1,5 +1,6 @@
-name: Install httpd package
-hosts: all
-  package:
-    name: httpd
-    state: started
+- name: Install httpd package
+  hosts: all
+  tasks:
+    - name: Print Hello World
+      ansible.builtin.debug:
+        msg: Hello World
