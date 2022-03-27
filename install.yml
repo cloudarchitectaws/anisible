@@ -7,5 +7,5 @@
     - name: Install httd Package
       ansible.builtin.package:
         name: httpd
-        state: present
+        state: absent
 
