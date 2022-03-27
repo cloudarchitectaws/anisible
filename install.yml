@@ -1,4 +1,5 @@
 name: Install httpd package
+hosts: all
   package:
     name: httpd
     state: started
