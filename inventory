@@ -1,1 +1,4 @@
+[TEST]
 44.203.159.217
+[PROD]
+ec2-44-203-159-217.compute-1.amazonaws.com
